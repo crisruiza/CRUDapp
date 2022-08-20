@@ -1,0 +1,47 @@
+/* General */
+body {
+    background-color: #FCF9F2;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Nunito';
+}
+
+p {
+
+    font-family: 'Nunito';
+}
+
+.hidden {
+    display: none;
+}
+
+/* Header  */
+header {
+    background-color: #DDFBB3;
+}
+
+/* Input  */
+#agregarArtículo {
+    background-color: #9DDCF9;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Lista  */
+.lista {
+    background-color: #FBF7B3;
+    border: 1px solid black;
+}
+
+/* Footer  */
+footer {
+    background-color: #DDFBB3;
+    margin-top: auto;
+
+}
