@@ -95,7 +95,7 @@ function actualizarLista() {
 }
 
 function eliminar(articulo) {
-  // Busca el articulo que queremos eliminar // ! aquí si no entiendo que está pasando
+  // Busca el articulo que queremos eliminar
   articulos = articulos.filter((a) => a !== articulo);
   console.log(articulos.length);
   localStorage.setItem("articulos", JSON.stringify(articulos));
@@ -103,6 +103,9 @@ function eliminar(articulo) {
   if (articulos.length === 0) {
     listaVacia.classList.remove("hidden");
   }
+  btnArticulo.textContent = "✅ Agregar artículo";
+  btnArticulo.classList.remove("btn-warning");
+  btnArticulo.classList.add("btn-primary");
 }
 
 function editar(articulo) {
