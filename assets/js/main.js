@@ -5,7 +5,6 @@ let articulos = localStorage.getItem("articulo")
 let articulo_previo = "";
 let editando = false;
 const articuloInput = document.getElementById("articuloInput");
-const catidadInput = document.getElementById("catidadInput");
 const btnArticulo = document.getElementById("btnArticulo");
 const lista = document.getElementById("lista");
 const listaVacia = document.getElementById("listaVacia");
