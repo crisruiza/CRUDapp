@@ -1,3 +1,4 @@
+console.log("hola");
 // ! Declaración de variables
 let articulos = localStorage.getItem("articulo")
   ? JSON.parse(localStorage.getItem("articulo"))
